@@ -1,0 +1,38 @@
+{
+  "name": "mazz"
+  , "version": "0.1.0"
+  , "description": "Mazz, the fast way of the tonto, to simulate 16 indipendent hash functions, using a crypto digest."
+  , "homepage": "https://github.com/rootslab/mazz"
+  , "private": false
+  , "repository": {
+    "type": "git"
+    , "url": "git://github.com/rootslab/mazz.git"
+  }
+  , "keywords": [
+    "mazz"
+    , "random"
+    , "hash"
+    , "hashing"
+  ]
+  , "author": {
+    "name": "Guglielmo Ferri"
+    , "email": "44gatti@gmail.com"
+  }
+  , "dependencies": {
+  },
+  "devDependencies": {
+     "dado" : ">=0.2.0"
+  }
+  , "main": "index"
+  , "engines": {
+    "node": ">=0.4.x"
+  }
+  , "scripts": {
+    "test": "node test/run.js"
+  }
+  , "license": "MIT"
+  , "readmeFilename": "Readme.md"
+  , "bugs": {
+    "url": "https://github.com/rootslab/mazz/issues"
+  }
+}
