@@ -1,6 +1,6 @@
 {
   "name": "mazz"
-  , "version": "0.1.1"
+  , "version": "0.1.2"
   , "description": "Mazz, the fast way of the tonto, to simulate 16 indipendent hash functions, using a crypto digest."
   , "homepage": "https://github.com/rootslab/mazz"
   , "private": false
