@@ -81,7 +81,7 @@ Mazz.hfn
  * range.
  * NOTE: the minimum range is obviously 2 (0, 1).
  */
-Mazz#do( Buffer data [, Number range ] ) : Number
+Mazz#do( Number hfn, Buffer data [, Number range ] ) : Number
 
 /*
  * hash with all functions in parallel,
