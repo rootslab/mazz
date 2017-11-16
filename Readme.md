@@ -15,16 +15,16 @@
 
 [![NPM GRAPH](https://nodei.co/npm/mazz.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/mazz/)
 
-> __Mazz__, the fast way of the tonto, to simulate 16 indipendent hash functions,
-> using a crypto digest. If you need a set of independent pseudo-random hash functions,
+> __Mazz__, the fast way of the __tonto__, to __simulate__ 16 indipendent hash functions,
+> using a crypto digest. If you need a set of __independent pseudo-random__ hash functions,
 > try __[Hazz](https://github.com/rootslab/hazz)__.
 	
 
-> PROS:
+> __PROS__:
 > - you can hash inputs of arbitrary length ( > 64 bytes ) with the best performances
 > - no random table in memory, like __Hazz__
 
-> CONS: 
+> __CONS__: 
 >  - the maximum number of hash functions are 16 (from index 0 to 15), if u need more (or less) try __Hazz__
 >  - the same input produces the same result every time, no pseudo-randomness was involved for generating functions results
 >  - it is slower than __Hazz__ for inputs ~<= 64 bytes
