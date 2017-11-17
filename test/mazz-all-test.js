@@ -45,7 +45,7 @@ exports.test  = function ( done, assertions ) {
 
 
     log( '-> all instances returns the same results on the same input' );
-    log( '-> hashing Buffers, with hash functions, one at a time, within range: %d' );
+    log( '-> hashing Buffers, with hash functions, one at a time, within range: %d', range );
     
     k0 = Mazz.do( 0, b1, range );
     k1 = Mazz.do( 1, b1, range );
