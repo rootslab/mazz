@@ -1,6 +1,6 @@
 {
   "name": "mazz"
-  , "version": "0.1.3"
+  , "version": "0.2.0"
   , "description": "Mazz, the fast way of the tonto, to simulate 16 indipendent hash functions, using a crypto digest."
   , "homepage": "https://github.com/rootslab/mazz"
   , "private": false
@@ -10,7 +10,6 @@
   }
   , "keywords": [
     "mazz"
-    , "random"
     , "hash"
     , "hashing"
   ]
@@ -19,9 +18,6 @@
     , "email": "44gatti@gmail.com"
   }
   , "dependencies": {
-    "bolgia" : ">=2.8.0"
-    , "toni" : ">=0.6.1"
-    , "hazz" : ">=0.5.1"
   },
   "devDependencies": {
      "dado" : ">=0.2.0"
