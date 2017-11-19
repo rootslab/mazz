@@ -28,6 +28,7 @@
 >  - the maximum number of hash functions are 16 (from index 0 to 15), if u need more (or less) try __Hazz__
 >  - the same input produces the same result every time, no pseudo-randomness was involved for generating functions results
 >  - it is slower than __Hazz__ for inputs ~<= 64 bytes
+>  - integers produced are between the range [ 2^24, 2^32 - 1 ]
 
 ### Install
 
@@ -42,11 +43,11 @@ var Mazz  = require( 'mazz' );
 ```
 ### Run Tests
 
-> __to run all test files, install devDependecies:__
+> __to run all test files, install devDependencies:__
 
 ```bash
  $ cd mazz/
- # install or update devDependecies
+ # install or update devDependencies
  $ npm install 
  # run tests
  $ npm test
