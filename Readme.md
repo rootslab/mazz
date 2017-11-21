@@ -26,7 +26,8 @@
 
 > __CONS__: 
 >  - the maximum number of hash functions are 16 (from index 0 to 15), if u need more (or less) try __Hazz__
->  - the same input produces the same result every time, no pseudo-randomness was involved for generating functions results
+>  - the same input produces the same result every time, no pseudo-randomness was involved for generating 
+     functions results ( the k-th hash function applied to an input i produced an unique result).
 >  - it is slower than __Hazz__ for inputs ~<= 64 bytes
 >  - integers produced are between the range [ 2^24, 2^32 - 1 ]
 
